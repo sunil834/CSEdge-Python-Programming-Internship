@@ -1,3 +1,5 @@
+#Voice Recorder with PyAudio
+# Required Modules
 import pyaudio
 import wave
 import soundfile as sf

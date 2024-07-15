@@ -3,7 +3,7 @@
 import nltk
 from nltk.chat.util import Chat, reflections
 
-# Pairs
+# Pairs:Reflections
 pairs = [
     [
         r"hi|hello|hey",
