@@ -1,8 +1,4 @@
 # Web Scraping Tool with BeautifulSoup
-'''Develop a web scraping application using Python's BeautifulSoup library. 
-Extract data from a website and present it in a structured format (e.g., CSV, JSON). 
-'''
-
 # Required Modules
 import requests
 from bs4 import BeautifulSoup
