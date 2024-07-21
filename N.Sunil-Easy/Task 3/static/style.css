@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  text-align: center;
+  color: #cc0000;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.thick {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.input-task {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.input-task:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Button Styles */
+.button1, .button2, .button3 {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button1 {
+  background-color: #28a745;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button1:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.button2 {
+  background-color: #007bff;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.button2:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.button3 {
+  background-color: #dc3545;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.button3:hover {
+  background-color: #c82333;
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
+
+/* Label Styles */
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.done {
+  background-color: #28a745;
+}
+
+.pending {
+  background-color: #ffc107;
+}
+
+/* Table Styles */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.task-table th, .task-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f8f9fa;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.task-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Additional Styles */
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+div {
+  text-align: center;
+}
+
+#first {
+  margin-top: 50px;
+}
