@@ -87,7 +87,7 @@ Now let's dive into the tasks!
 1. Web Scraping Tool with BeautifulSoup:
 
 - Develop a web scraping application using Python's BeautifulSoup library. Extract data from a website and present it in a structured format (e.g., CSV, JSON).
-Basic Chatbot with NLTK:
+
 
 2. Basic Chatbot with NLTK:
 
